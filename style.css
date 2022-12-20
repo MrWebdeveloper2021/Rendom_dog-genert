@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 32px;
+  }
+  img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 10px;
+    padding-left: 420px;
+  }
+  button{
+    color: white;
+    font-size: 20px;
+    background-color: green;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    border-style: none;
+    margin-left: 610px;
+  }
+  @media only screen and (max-width: 400px){
+    h1{
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+      }
+      img{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 22px;
+        padding-top: 50px;
+        width: 350px;
+        height: 400px;
+      }
+      button{
+        color: white;
+        font-size: 25px;
+        background-color: green;
+        padding: 25px;
+        margin: 25px;
+        border-radius: 25px;
+        border-style: none;
+        margin-left: 90px;
+        margin-top: 50px;
+      }
+
+  }
